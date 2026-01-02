@@ -1,0 +1,143 @@
+/* Copyright (C) Michael Leggett - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Michael Leggett <hi@simpl.fyi>
+ */
+html.simplify {
+  /* ==== MASTHEAD ==== */
+  /* Super minimal (just the NYT logo) */
+  /* Somewhat Minimal (keep links to account, settings, home, and search) */
+  /* Make header bottom border go all the way across screen */
+  /* ==== GAMES ==== */
+  /* Hide Times logo */
+  /* ==== OTHER ==== */
+  /* Hide ribbon of related articles at top */
+  /* Hide newsletter sign up */
+  /* Hide related articles */
+  /* Hide top bar when scrolled down */
+  /* Less wide header / title */
+  /* Hide Kicker Label (section) at top of article */
+  /* Hide ads */
+  /* Hide navigation edge */
+  /* Hide sections button */
+  /* Hide share tool */
+  /* Hide footer / site index */
+  /* Center article */
+  /* Hide next article button */
+}
+html.simplify .quick-navigation,
+html.simplify .user-tools-button-group {
+  display: none !important;
+}
+html.simplify .masthead.masthead-theme-standard .container {
+  border-bottom: none !important;
+  background-color: #f5f5f5 !important;
+}
+html.simplify .masthead.masthead-theme-standard {
+  margin-left: 0px !important;
+}
+html.simplify .masthead.masthead-theme-standard .branding {
+  margin-left: 0px !important;
+}
+html.simplify .pz-game-title-bar {
+  max-height: 0px;
+  padding: 0 !important;
+  margin: 0;
+}
+html.simplify .pz-game-toolbar,
+html.simplify .pz-moment__congrats {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+html.simplify #portal-game-header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  left: calc(50% - 250px);
+  width: 500px;
+  text-align: center;
+}
+html.simplify .pz-game-title {
+  font-size: 32px !important;
+}
+html.simplify #portal-game-toolbar header {
+  position: fixed;
+  top: 4px;
+  right: 8px;
+  z-index: 9999;
+  width: fit-content;
+  max-width: 200px;
+}
+html.simplify #wordle-app-game,
+html.simplify .pz-game-field {
+  padding-top: 60px;
+}
+html.simplify .pz-desktop .pz-section + .pz-section {
+  margin-top: 0px !important;
+}
+html.simplify #js-logo-nav {
+  display: none;
+}
+html.simplify .pz-ad-box,
+html.simplify [class*=Ad-module_adContainer] {
+  display: none;
+}
+html.simplify .ribbon {
+  display: none !important;
+}
+html.simplify .newsletter-signup {
+  display: none !important;
+}
+html.simplify .whats-next,
+html.simplify .trending-module,
+html.simplify .related-combined-coverage,
+html.simplify .supplemental,
+html.simplify #related-coverage,
+html.simplify .related-coverage {
+  display: none !important;
+}
+html.simplify .masthead.in-content {
+  display: none !important;
+}
+html.simplify #story-header {
+  width: 800px !important; /* image is 705px */
+  margin: 0 auto !important;
+  padding-top: 50px;
+}
+html.simplify .story-meta .kicker-label,
+html.simplify .kicker {
+  display: none;
+}
+html.simplify .text-ad,
+html.simplify .top-ad,
+html.simplify .ad,
+html.simplify #subscriber-recirculation-bottom-sheet {
+  display: none !important;
+}
+html.simplify .main {
+  border-top: 0px !important;
+}
+html.simplify .shell {
+  padding-top: 47px !important;
+}
+html.simplify #navigation-edge {
+  display: none !important;
+}
+html.simplify .sections-button {
+  display: none !important;
+}
+html.simplify .sharetools-menu,
+html.simplify .story-meta-footer-sharetools {
+  display: none !important;
+}
+html.simplify #site-index,
+html.simplify #page-footer,
+html.simplify footer {
+  display: none !important;
+}
+html.simplify .story-body {
+  margin: auto;
+}
+html.simplify .ribbon-page-navigation {
+  display: none !important;
+}

@@ -1,0 +1,171 @@
+/* Copyright (C) Michael Leggett - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Michael Leggett <hi@simpl.fyi>
+ */
+
+html.simplify {
+  /* ==== MASTHEAD ==== */
+
+  /* Super minimal (just the NYT logo) */
+  .quick-navigation,
+  .user-tools-button-group {
+    display: none !important;
+  }
+  .masthead.masthead-theme-standard .container {
+    border-bottom: none !important;
+    background-color: #f5f5f5 !important;
+  }
+  .masthead.masthead-theme-standard {
+    margin-left: 0px !important;
+  }
+
+  /* Somewhat Minimal (keep links to account, settings, home, and search) */
+  /* Make header bottom border go all the way across screen */
+  .masthead.masthead-theme-standard .branding {
+    margin-left: 0px !important;
+  }
+
+  /* ==== GAMES ==== */
+
+  .pz-game-title-bar {
+    max-height: 0px;
+    padding: 0 !important;
+    margin: 0;
+  }
+  .pz-game-toolbar,
+  .pz-moment__congrats {
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+  #portal-game-header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    left: calc(50% - 250px);
+    width: 500px;
+    text-align: center;
+  }
+  .pz-game-title {
+    font-size: 32px !important;
+  }
+  #portal-game-toolbar header {
+    position: fixed;
+    top: 4px;
+    right: 8px;
+    z-index: 9999;
+    width: fit-content;
+    max-width: 200px;
+  }
+  #wordle-app-game,
+  .pz-game-field {
+    padding-top: 60px;
+  }
+  .pz-desktop .pz-section + .pz-section {
+    margin-top: 0px !important;
+  }
+
+  /* Hide Times logo */
+  #js-logo-nav {
+    display: none;
+  }
+
+  // Style corner of connections tile when pinned
+  // label[pinned] { background-image: linear-gradient(-135deg, red 0px, red 20px, transparent 20px, transparent 100%); }
+  // --connections-yellow: #f9df6d;
+  // --connections-green: #a0c35a;
+  // --connections-blue: #b0c4ef;
+  // --connections-maroon: #ba81c5;
+
+  /* ==== OTHER ==== */
+
+  .pz-ad-box,
+  [class*="Ad-module_adContainer"] {
+    display: none;
+  }
+
+  /* Hide ribbon of related articles at top */
+  .ribbon {
+    display: none !important;
+  }
+
+  /* Hide newsletter sign up */
+  .newsletter-signup {
+    display: none !important;
+  }
+
+  /* Hide related articles */
+  .whats-next,
+  .trending-module,
+  .related-combined-coverage,
+  .supplemental,
+  #related-coverage,
+  .related-coverage {
+    display: none !important;
+  }
+
+  /* Hide top bar when scrolled down */
+  .masthead.in-content {
+    display: none !important;
+  }
+
+  /* Less wide header / title */
+  #story-header {
+    width: 800px !important; /* image is 705px */
+    margin: 0 auto !important;
+    padding-top: 50px;
+  }
+
+  /* Hide Kicker Label (section) at top of article */
+  .story-meta .kicker-label,
+  .kicker {
+    display: none;
+  }
+
+  /* Hide ads */
+  .text-ad,
+  .top-ad,
+  .ad,
+  #subscriber-recirculation-bottom-sheet {
+    display: none !important;
+  }
+  .main {
+    border-top: 0px !important;
+  }
+  .shell {
+    padding-top: 47px !important;
+  }
+
+  /* Hide navigation edge */
+  #navigation-edge {
+    display: none !important;
+  }
+
+  /* Hide sections button */
+  .sections-button {
+    display: none !important;
+  }
+
+  /* Hide share tool */
+  .sharetools-menu,
+  .story-meta-footer-sharetools {
+    display: none !important;
+  }
+
+  /* Hide footer / site index */
+  #site-index,
+  #page-footer,
+  footer {
+    display: none !important;
+  }
+
+  /* Center article */
+  .story-body {
+    margin: auto;
+  }
+
+  /* Hide next article button */
+  .ribbon-page-navigation {
+    display: none !important;
+  }
+}
