@@ -23,6 +23,6 @@ window.addEventListener("keydown", handleKeydown, false);
 
 // Init
 function init() {
-  report("Simplify NY Times v1.0 loaded");
+  console.log("Simplify NY Times v1.0 loaded");
 }
 window.addEventListener("load", init, false);

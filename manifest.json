@@ -13,13 +13,14 @@
     {
       "matches": ["*://*.nytimes.com/*"],
       "js": ["js/util.js", "js/main.js"],
-      "css": ["css/style.css"],
+      "css": ["css/main.css"],
       "run_at": "document_start",
       "all_frames": false
     },
     {
       "matches": ["*://*.nytimes.com/games/connections*"],
       "js": ["js/connections.js"],
+      "css": ["css/connections.css"],
       "run_at": "document_end",
       "all_frames": false
     }
